@@ -23,7 +23,7 @@ const Services = () => {
         <div className="max-w-7xl mx-auto space-y-12">
           {/* Service 1 */}
           <section className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
-          <div className="relative">
+            <div className="relative">
               <Image
                 src="https://t4.ftcdn.net/jpg/02/67/54/81/360_F_267548196_S2gNmvRnxMl6r4hpwAm0dUjjWqEtxugG.jpg"
                 alt="Housekeeping Service"
@@ -39,7 +39,6 @@ const Services = () => {
                 Learn More
               </button>
             </div>
-           
           </section>
 
           {/* Service 2 */}
@@ -64,7 +63,6 @@ const Services = () => {
 
           {/* Service 3 */}
           <section className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
-         
             <div className="relative">
               <Image
                 src="https://img.freepik.com/premium-photo/zero-waste-home-cleaning-eco-friendly-products-set-lifestyle-concept-natural-ingredients_164638-6192.jpg"
@@ -89,7 +87,7 @@ const Services = () => {
       <div className="bg-teal-600 py-16 text-center text-white">
         <h3 className="text-3xl font-semibold mb-6">Get in Touch with Us Today</h3>
         <p className="text-lg mb-6 max-w-3xl mx-auto leading-relaxed">
-          Whether you're interested in our housekeeping services, commercial cleaning, or eco-friendly products, our team is here to provide the best solutions for your needs. Contact us today to learn more!
+          Whether you&apos;re interested in our housekeeping services, commercial cleaning, or eco-friendly products, our team is here to provide the best solutions for your needs. Contact us today to learn more!
         </p>
         <button className="px-8 py-3 bg-amber-600 text-white font-semibold rounded-lg shadow-lg hover:bg-amber-700 transition duration-300 transform hover:scale-105">
           Contact Us Now
