@@ -20,10 +20,10 @@ const AboutUs = () => {
         </p>
       </div>
 
-      {/* About Us Section */}
+ 
       <div className="bg-white py-16 px-6 md:px-12">
         <div className="max-w-7xl mx-auto space-y-12">
-          {/* Mission Section */}
+         
           <section className="text-center">
             <h2 className="text-3xl md:text-4xl font-semibold text-black mb-6">
               Our Mission
