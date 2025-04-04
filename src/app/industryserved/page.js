@@ -29,7 +29,7 @@ const IndustriesWeServe = () => {
               </p>
             </div>
             <div className="relative">
-              <img
+              <Image
                 src="https://img.freepik.com/free-photo/modern-office-space-with-desktops-with-modern-computers-created-with-generative-ai-technology_185193-110089.jpg?t=st=1743627248~exp=1743630848~hmac=0c7d562ee699ed2f60a49364299016eae6bb9ad79b2270a020e355987a65a51b&w=2000"
                 alt="Corporate Office Cleaning"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
@@ -40,7 +40,7 @@ const IndustriesWeServe = () => {
           {/* Industry 2: Healthcare Facilities */}
           <section className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
           <div className="relative">
-              <img
+              <Image
                 src="https://img.freepik.com/free-photo/empty-hallway-background_23-2149408802.jpg?t=st=1743627287~exp=1743630887~hmac=c65d0ec06d12b3dae8dcef9fdb1361bb00b1fb0a3e4e59b2bb68d92f240d8681&w=1800"
                 alt="Healthcare Facility Cleaning"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
@@ -64,7 +64,7 @@ const IndustriesWeServe = () => {
               </p>
             </div>
             <div className="relative">
-              <img
+              <Image
                 src="https://img.freepik.com/free-photo/mall-america-scenes-cinematic-style_23-2151551300.jpg?t=st=1743627347~exp=1743630947~hmac=47689d9ddc37da62d63f7e4dd5fefedfaf330fe37c05f46e096688031b4544f4&w=2000"
                 alt="Mall and Shopping Complex Cleaning"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
@@ -75,7 +75,7 @@ const IndustriesWeServe = () => {
           {/* Industry 4: Educational Institutions */}
           <section className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
           <div className="relative">
-              <img
+              <Image
                 src="https://img.freepik.com/free-photo/high-angle-students-learning-library_23-2149647043.jpg?t=st=1743627408~exp=1743631008~hmac=053c1cc1f8aaffba63eddcc49ea1b8f3ad85723adf8a656a4538b44e055236d7&w=2000"
                 alt="Educational Institution Cleaning"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
@@ -99,7 +99,7 @@ const IndustriesWeServe = () => {
               </p>
             </div>
             <div className="relative">
-              <img
+              <Image
                 src="https://img.freepik.com/free-photo/chef-with-tablet_23-2148145530.jpg?t=st=1743627452~exp=1743631052~hmac=fbd1766d17ddb9312b8c2bc4c5a29dffaac704f45f4249c3cf6ba4a3b592f1d9&w=2000"
                 alt="Hospitality Industry Cleaning"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"

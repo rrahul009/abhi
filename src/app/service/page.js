@@ -23,7 +23,7 @@ const Services = () => {
           {/* Service 1 */}
           <section className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
           <div className="relative">
-              <img
+              <Image
                 src="https://t4.ftcdn.net/jpg/02/67/54/81/360_F_267548196_S2gNmvRnxMl6r4hpwAm0dUjjWqEtxugG.jpg"
                 alt="Housekeeping Service"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
@@ -53,7 +53,7 @@ const Services = () => {
               </button>
             </div>
             <div className="relative">
-              <img
+              <Image
                 src="https://www.shutterstock.com/image-photo/closeup-mop-cleaning-office-floor-600nw-2511302389.jpg"
                 alt="Commercial Cleaning"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
@@ -65,7 +65,7 @@ const Services = () => {
           <section className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
          
             <div className="relative">
-              <img
+              <Image
                 src="https://img.freepik.com/premium-photo/zero-waste-home-cleaning-eco-friendly-products-set-lifestyle-concept-natural-ingredients_164638-6192.jpg"
                 alt="Eco-Friendly Products"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"

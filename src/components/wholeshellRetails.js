@@ -31,7 +31,7 @@ const WholeshellRetails = () => {
           {/* Card 1 */}
           <div className="card bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <img src="professional-cleaning-service2-min.jpg" alt="High-Quality Products" className="mb-4 rounded-md w-full h-full object-cover" />
+              <Image src="professional-cleaning-service2-min.jpg" alt="High-Quality Products" className="mb-4 rounded-md w-full h-full object-cover" />
               <h3 className="text-xl font-semibold text-black">High-Quality Products</h3>
             </div>
             <p className="text-gray-700">
@@ -42,7 +42,7 @@ const WholeshellRetails = () => {
           {/* Card 2 */}
           <div className="card bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <img src="https://st2.depositphotos.com/4152719/8388/i/450/depositphotos_83882532-stock-photo-competitive-pricing-concept-image-with.jpg" 
+              <Image src="https://st2.depositphotos.com/4152719/8388/i/450/depositphotos_83882532-stock-photo-competitive-pricing-concept-image-with.jpg" 
               alt="Competitive Prices" className="mb-4 rounded-md w-full h-full object-cover" />
               <h3 className="text-xl font-semibold text-black">Competitive Prices</h3>
             </div>
@@ -54,7 +54,7 @@ const WholeshellRetails = () => {
           {/* Card 3 */}
           <div className="card bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <img src="client-receiving.jpg" 
+              <Image src="client-receiving.jpg" 
                alt="Flexible Orders" className="mb-4 rounded-md w-full h-full object-cover" />
               <h3 className="text-xl font-semibold text-black">Flexible Orders</h3>
             </div>
@@ -66,7 +66,7 @@ const WholeshellRetails = () => {
           {/* Card 4 */}
           <div className="card bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <img src="https://img.freepik.com/free-vector/delivery-man-driving-way_56104-669.jpg?t=st=1743600725~exp=1743604325~hmac=f2289e04a6ae9a8f1070790ad29e43998121f21b7288932e50db8193030512de&w=1800"
+              <Image src="https://img.freepik.com/free-vector/delivery-man-driving-way_56104-669.jpg?t=st=1743600725~exp=1743604325~hmac=f2289e04a6ae9a8f1070790ad29e43998121f21b7288932e50db8193030512de&w=1800"
                alt="Fast Delivery" className="mb-4 rounded-md w-full h-full object-cover" />
               <h3 className="text-xl font-semibold text-black">Fast & Reliable Delivery</h3>
             </div>
@@ -78,7 +78,7 @@ const WholeshellRetails = () => {
           {/* Card 5 */}
           <div className="card bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <img src="supports.jpg" alt="Customer Support" className="mb-4 rounded-md w-full h-full object-cover" />
+              <Image src="supports.jpg" alt="Customer Support" className="mb-4 rounded-md w-full h-full object-cover" />
               <h3 className="text-xl font-semibold text-black">Customer Support</h3>
             </div>
             <p className="text-gray-700">
@@ -89,7 +89,7 @@ const WholeshellRetails = () => {
           {/* Card 6 */}
           <div className="card bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <img src="discount.jpg" alt="Exclusive Offers" className="mb-4 rounded-md w-full h-60 object-cover" />
+              <Image src="discount.jpg" alt="Exclusive Offers" className="mb-4 rounded-md w-full h-60 object-cover" />
               <h3 className="text-xl font-semibold text-black">Exclusive Offers</h3>
             </div>
             <p className="text-gray-700">

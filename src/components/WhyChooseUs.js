@@ -34,7 +34,7 @@ export default function WhyChooseUs() {
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
           >
-            <img
+            <Image
               src="https://images.pexels.com/photos/3850442/pexels-photo-3850442.jpeg"
               alt="High-Quality Cleaning Products"
               width={400}
@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
             onMouseEnter={() => handleMouseEnter(1)}
             onMouseLeave={handleMouseLeave}
           >
-            <img
+            <Image
               src="https://images.pexels.com/photos/4239144/pexels-photo-4239144.jpeg"
               alt="Eco-Friendly Solutions"
               width={400}

@@ -70,7 +70,7 @@ const Slider = () => {
 
     {/* Right Side: Image */}
     <div className="w-full md:w-1/2 relative overflow-hidden transform hover:scale-105 transition duration-300 lg:ml-10 hidden md:block">
-      <img
+      <Image
         src="https://5.imimg.com/data5/SELLER/Default/2023/10/353184550/GX/ZY/NN/12410061/housekeeping-materials-supplier.jpg"
         alt="Cleaning Products"
         className="w-full h-auto object-cover object-center"
@@ -128,7 +128,7 @@ const Slider = () => {
 
         {/* Right Side: Image */}
         <div className="w-full md:w-1/2 relative overflow-hidden  transform hover:scale-105 transition duration-300 lg:ml-10">
-          <img
+          <Image
             src="https://images.pexels.com/photos/33260/honey-sweet-syrup-organic.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Cleaning Products"
             className="w-full h-auto object-cover object-center "
@@ -187,7 +187,7 @@ const Slider = () => {
 
         {/* Right Side: Image */}
         <div className="w-full md:w-1/2 relative overflow-hidden  transform hover:scale-105 transition duration-300 lg:ml-10">
-          <img
+          <Image
             src="https://5.imimg.com/data5/SELLER/Default/2023/10/353184550/GX/ZY/NN/12410061/housekeeping-materials-supplier.jpg"
             alt="Cleaning Products"
             className="w-full h-auto object-cover object-center "
