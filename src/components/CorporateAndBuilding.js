@@ -21,13 +21,15 @@ const CorporateAndBuilding = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Card 1 */}
                     <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 relative overflow-hidden">
-                        <Image
-                            src="/images/corporateImages.avif" // Corrected path
-                            alt="Corporate Office"
-                            width={500}
-                            height={300}
-                            className="w-full h-48 object-cover rounded-t-xl transition duration-300 transform hover:scale-105"
-                        />
+                        <div className="relative w-full h-48">
+                            <Image
+                                src="/images/corporateImages.avif"
+                                alt="Corporate Office"
+                                fill
+                                className="object-cover rounded-t-xl"
+                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            />
+                        </div>
                         <h3 className="text-2xl font-semibold text-black mb-4 mt-6">Tailored for Your Needs</h3>
                         <p className="text-gray-700">
                             Customized cleaning solutions designed to meet the unique needs of your facility, ensuring efficiency and cleanliness in every corner.
@@ -36,13 +38,15 @@ const CorporateAndBuilding = () => {
 
                     {/* Card 2 */}
                     <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 relative overflow-hidden">
-                        <Image
-                            src="/images/mall.jpg" // Corrected path
-                            alt="Shopping Mall"
-                            width={500}
-                            height={300}
-                            className="w-full h-48 object-cover rounded-t-xl transition duration-300 transform hover:scale-105"
-                        />
+                        <div className="relative w-full h-48">
+                            <Image
+                                src="/images/mall.jpg"
+                                alt="Shopping Mall"
+                                fill
+                                className="object-cover rounded-t-xl"
+                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            />
+                        </div>
                         <h3 className="text-2xl font-semibold text-black mb-4 mt-6">Eco-Friendly Products</h3>
                         <p className="text-gray-700">
                             Our products are not only powerful but also environmentally friendly, ensuring a clean space without harming the planet.
@@ -51,13 +55,15 @@ const CorporateAndBuilding = () => {
 
                     {/* Card 3 */}
                     <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 relative overflow-hidden">
-                        <Image
-                            src="/images/hospital.jpeg" // Corrected path
-                            alt="Hospital"
-                            width={500}
-                            height={300}
-                            className="w-full h-48 object-cover rounded-t-xl transition duration-300 transform hover:scale-105"
-                        />
+                        <div className="relative w-full h-48">
+                            <Image
+                                src="/images/hospital.jpeg"
+                                alt="Hospital"
+                                fill
+                                className="object-cover rounded-t-xl"
+                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            />
+                        </div>
                         <h3 className="text-2xl font-semibold text-black mb-4 mt-6">Comprehensive Coverage</h3>
                         <p className="text-gray-700">
                             Whether it's a corporate office, shopping mall, or healthcare facility, we have the perfect solution to meet your cleaning requirements.
@@ -67,10 +73,10 @@ const CorporateAndBuilding = () => {
 
                 {/* Call to Action */}
                 <div className="text-center mt-8">
-                    <Link href="/contact">
-                        <button className="px-8 py-3 bg-amber-600 text-white font-semibold rounded-lg shadow-lg hover:bg-amber-700 transition duration-300 transform hover:scale-105">
+                    <Link href="/contact" legacyBehavior>
+                        <a className="inline-block px-8 py-3 bg-amber-600 text-white font-semibold rounded-lg shadow-lg hover:bg-amber-700 transition duration-300 transform hover:scale-105">
                             Get a Free Consultation
-                        </button>
+                        </a>
                     </Link>
                 </div>
             </div>
