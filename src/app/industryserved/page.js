@@ -114,7 +114,7 @@ const IndustriesWeServe = () => {
       <div className="bg-teal-600 py-16 text-center text-white">
         <h3 className="text-3xl font-semibold mb-6">Partner With Us Today</h3>
         <p className="text-lg mb-6 max-w-3xl mx-auto leading-relaxed">
-          Whether you're in healthcare, hospitality, education, or any other industry, we have the right cleaning solutions for you. Get in touch with us to learn how we can serve your industry with top-quality, eco-friendly cleaning products and services.
+          Whether you&apos;re in healthcare, hospitality, education, or any other industry, we have the right cleaning solutions for you. Get in touch with us to learn how we can serve your industry with top-quality, eco-friendly cleaning products and services.
         </p>
         <button className="px-8 py-3 bg-amber-600 text-white font-semibold rounded-lg shadow-lg hover:bg-amber-700 transition duration-300 transform hover:scale-105">
           Contact Us Now
