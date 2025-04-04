@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
 import Image from 'next/image';
 
 const CorporateAndBuilding = () => {
@@ -21,9 +21,11 @@ const CorporateAndBuilding = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Card 1 */}
           <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 relative overflow-hidden">
-            <img
-              src="corporateImages.avif"
+            <Image
+              src="/images/corporateImages.avif" // Update the path to the correct location in your 'public' folder
               alt="Corporate Office"
+              width={500}
+              height={300}
               className="w-full h-48 object-cover rounded-t-xl transition duration-300 transform hover:scale-105"
             />
             <h3 className="text-2xl font-semibold text-black mb-4 mt-6">Tailored for Your Needs</h3>
@@ -34,9 +36,11 @@ const CorporateAndBuilding = () => {
 
           {/* Card 2 */}
           <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 relative overflow-hidden">
-            <img
-              src="mall.jpg"
+            <Image
+              src="/images/mall.jpg" // Update path
               alt="Shopping Mall"
+              width={500}
+              height={300}
               className="w-full h-48 object-cover rounded-t-xl transition duration-300 transform hover:scale-105"
             />
             <h3 className="text-2xl font-semibold text-black mb-4 mt-6">Eco-Friendly Products</h3>
@@ -47,9 +51,11 @@ const CorporateAndBuilding = () => {
 
           {/* Card 3 */}
           <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 relative overflow-hidden">
-            <img
-              src="hospital.jpeg"
+            <Image
+              src="/images/hospital.jpeg" // Update path
               alt="Hospital"
+              width={500}
+              height={300}
               className="w-full h-48 object-cover rounded-t-xl transition duration-300 transform hover:scale-105"
             />
             <h3 className="text-2xl font-semibold text-black mb-4 mt-6">Comprehensive Coverage</h3>
@@ -61,15 +67,15 @@ const CorporateAndBuilding = () => {
 
         {/* Call to Action */}
         <div className="text-center mt-8">
-         <Link href="/contact">
-         <button className="px-8 py-3 bg-amber-600 text-white font-semibold rounded-lg shadow-lg hover:bg-amber-700 transition duration-300 transform hover:scale-105">
-            Get a Free Consultation
-          </button>
-         </Link>
+          <Link href="/contact">
+            <button className="px-8 py-3 bg-amber-600 text-white font-semibold rounded-lg shadow-lg hover:bg-amber-700 transition duration-300 transform hover:scale-105">
+              Get a Free Consultation
+            </button>
+          </Link>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default CorporateAndBuilding;

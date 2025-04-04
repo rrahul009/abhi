@@ -1,10 +1,9 @@
 'use client'
 
 import Head from 'next/head';
-import Image from 'next/image'; // Import Image component for optimized images
+import Image from 'next/image'; // Use Next.js Image component
 import Link from 'next/link';
 import { useState } from 'react';
- 
 
 export default function WhyChooseUs() {
   const [hoveredCard, setHoveredCard] = useState(null);
@@ -17,6 +16,7 @@ export default function WhyChooseUs() {
     <>
       <Head>
         <meta name="description" content="Learn why you should choose us for the best cleanliness and chemical products." />
+        <title>Why Choose Us?</title> {/* Added a title for better SEO */}
       </Head>
 
       <div className="container mx-auto px-4 py-12 max-w-7xl">
@@ -77,7 +77,7 @@ export default function WhyChooseUs() {
             onMouseEnter={() => handleMouseEnter(2)}
             onMouseLeave={handleMouseLeave}
           >
-            <img
+            <Image
               src="https://images.pexels.com/photos/4099159/pexels-photo-4099159.jpeg"
               alt="Industrial-Strength Formulas"
               width={400}

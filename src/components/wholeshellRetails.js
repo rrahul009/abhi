@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from 'next/link';
+import React from 'react';
 import Image from 'next/image';
 
 const WholeshellRetails = () => {
@@ -14,25 +14,29 @@ const WholeshellRetails = () => {
         
         {/* Main Content */}
         <div className="text-lg mx-w-4xl text-gray-950 mb-6 leading-relaxed text-center md:text-center">
-  <p>
-    <span style={{color:'green'}} className="font-bold text-xl">Bhagwati Durga Enterprises</span> offers top-quality cleaning chemicals at the best prices for wholesalers and retailers.
-  </p>
-  <p>
-    Whether you're stocking your store or supplying your business, our eco-friendly solutions have you covered.
-  </p>
-  <p>
-    We aim to make cleaning easier, healthier, and more sustainable!
-  </p>
-</div>
+          <p>
+            <span style={{color: 'green'}} className="font-bold text-xl">Bhagwati Durga Enterprises</span> offers top-quality cleaning chemicals at the best prices for wholesalers and retailers.
+          </p>
+          <p>
+            Whether you're stocking your store or supplying your business, our eco-friendly solutions have you covered.
+          </p>
+          <p>
+            We aim to make cleaning easier, healthier, and more sustainable!
+          </p>
+        </div>
 
-
-        
         {/* Benefits and Details */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Card 1 */}
-          <div className="card bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image src="professional-cleaning-service2-min.jpg" alt="High-Quality Products" className="mb-4 rounded-md w-full h-full object-cover" />
+              <Image
+                src="/images/professional-cleaning-service2-min.jpg"
+                alt="High-Quality Products"
+                className="mb-4 rounded-md w-full h-full object-cover"
+                width={400}
+                height={250}
+              />
               <h3 className="text-xl font-semibold text-black">High-Quality Products</h3>
             </div>
             <p className="text-gray-700">
@@ -41,10 +45,15 @@ const WholeshellRetails = () => {
           </div>
           
           {/* Card 2 */}
-          <div className="card bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image src="https://st2.depositphotos.com/4152719/8388/i/450/depositphotos_83882532-stock-photo-competitive-pricing-concept-image-with.jpg" 
-              alt="Competitive Prices" className="mb-4 rounded-md w-full h-full object-cover" />
+              <Image
+                src="https://st2.depositphotos.com/4152719/8388/i/450/depositphotos_83882532-stock-photo-competitive-pricing-concept-image-with.jpg"
+                alt="Competitive Prices"
+                className="mb-4 rounded-md w-full h-full object-cover"
+                width={400}
+                height={250}
+              />
               <h3 className="text-xl font-semibold text-black">Competitive Prices</h3>
             </div>
             <p className="text-gray-700">
@@ -53,10 +62,15 @@ const WholeshellRetails = () => {
           </div>
           
           {/* Card 3 */}
-          <div className="card bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image src="client-receiving.jpg" 
-               alt="Flexible Orders" className="mb-4 rounded-md w-full h-full object-cover" />
+              <Image
+                src="/images/client-receiving.jpg"
+                alt="Flexible Orders"
+                className="mb-4 rounded-md w-full h-full object-cover"
+                width={400}
+                height={250}
+              />
               <h3 className="text-xl font-semibold text-black">Flexible Orders</h3>
             </div>
             <p className="text-gray-700">
@@ -65,10 +79,15 @@ const WholeshellRetails = () => {
           </div>
           
           {/* Card 4 */}
-          <div className="card bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image src="https://img.freepik.com/free-vector/delivery-man-driving-way_56104-669.jpg?t=st=1743600725~exp=1743604325~hmac=f2289e04a6ae9a8f1070790ad29e43998121f21b7288932e50db8193030512de&w=1800"
-               alt="Fast Delivery" className="mb-4 rounded-md w-full h-full object-cover" />
+              <Image
+                src="https://img.freepik.com/free-vector/delivery-man-driving-way_56104-669.jpg?t=st=1743600725~exp=1743604325~hmac=f2289e04a6ae9a8f1070790ad29e43998121f21b7288932e50db8193030512de&w=1800"
+                alt="Fast Delivery"
+                className="mb-4 rounded-md w-full h-full object-cover"
+                width={400}
+                height={250}
+              />
               <h3 className="text-xl font-semibold text-black">Fast & Reliable Delivery</h3>
             </div>
             <p className="text-gray-700">
@@ -77,9 +96,15 @@ const WholeshellRetails = () => {
           </div>
           
           {/* Card 5 */}
-          <div className="card bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image src="supports.jpg" alt="Customer Support" className="mb-4 rounded-md w-full h-full object-cover" />
+              <Image
+                src="/images/supports.jpg"
+                alt="Customer Support"
+                className="mb-4 rounded-md w-full h-full object-cover"
+                width={400}
+                height={250}
+              />
               <h3 className="text-xl font-semibold text-black">Customer Support</h3>
             </div>
             <p className="text-gray-700">
@@ -88,9 +113,15 @@ const WholeshellRetails = () => {
           </div>
           
           {/* Card 6 */}
-          <div className="card bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
-              <Image src="discount.jpg" alt="Exclusive Offers" className="mb-4 rounded-md w-full h-60 object-cover" />
+              <Image
+                src="/images/discount.jpg"
+                alt="Exclusive Offers"
+                className="mb-4 rounded-md w-full h-60 object-cover"
+                width={400}
+                height={250}
+              />
               <h3 className="text-xl font-semibold text-black">Exclusive Offers</h3>
             </div>
             <p className="text-gray-700">
@@ -102,13 +133,14 @@ const WholeshellRetails = () => {
         {/* Call to Action */}
         <div className="text-center mt-8">
           <Link href="/contact">
-          <button className="px-8 py-3 bg-amber-600 text-white font-semibold rounded-lg shadow-lg hover:bg-amber-700 transition duration-300 transform hover:scale-105">
-            Contact Us for Bulk Orders
-          </button></Link>
+            <button className="px-8 py-3 bg-amber-600 text-white font-semibold rounded-lg shadow-lg hover:bg-amber-700 transition duration-300 transform hover:scale-105">
+              Contact Us for Bulk Orders
+            </button>
+          </Link>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default WholeshellRetails
+export default WholeshellRetails;
