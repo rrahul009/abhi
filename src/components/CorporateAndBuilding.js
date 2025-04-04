@@ -22,7 +22,7 @@ const CorporateAndBuilding = () => {
           {/* Card 1 */}
           <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 relative overflow-hidden">
             <Image
-              src="/images/corporateImages.avif" // Update the path to the correct location in your 'public' folder
+              src="/images/corporateImages.avif" // Corrected path
               alt="Corporate Office"
               width={500}
               height={300}
@@ -37,7 +37,7 @@ const CorporateAndBuilding = () => {
           {/* Card 2 */}
           <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 relative overflow-hidden">
             <Image
-              src="/images/mall.jpg" // Update path
+              src="/images/mall.jpg" // Corrected path
               alt="Shopping Mall"
               width={500}
               height={300}
@@ -52,7 +52,7 @@ const CorporateAndBuilding = () => {
           {/* Card 3 */}
           <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300 transform hover:scale-105 relative overflow-hidden">
             <Image
-              src="/images/hospital.jpeg" // Update path
+              src="/images/hospital.jpeg" // Corrected path
               alt="Hospital"
               width={500}
               height={300}

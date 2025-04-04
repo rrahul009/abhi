@@ -11,11 +11,11 @@ const WholeshellRetails = () => {
         <h1 className="text-4xl md:text-4xl font-bold text-black text-center leading-tight mb-6">
           Wholesale & Retail Chemicals at Best Prices
         </h1>
-        
+
         {/* Main Content */}
         <div className="text-lg mx-w-4xl text-gray-950 mb-6 leading-relaxed text-center md:text-center">
           <p>
-            <span style={{color: 'green'}} className="font-bold text-xl">Bhagwati Durga Enterprises</span> offers top-quality cleaning chemicals at the best prices for wholesalers and retailers.
+            <span style={{ color: 'green' }} className="font-bold text-xl">Bhagwati Durga Enterprises</span> offers top-quality cleaning chemicals at the best prices for wholesalers and retailers.
           </p>
           <p>
             Whether you're stocking your store or supplying your business, our eco-friendly solutions have you covered.
@@ -31,7 +31,7 @@ const WholeshellRetails = () => {
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
               <Image
-                src="/images/professional-cleaning-service2-min.jpg"
+                src="/images/professional-cleaning-service2-min.jpg" // Ensure path is correct
                 alt="High-Quality Products"
                 className="mb-4 rounded-md w-full h-full object-cover"
                 width={400}
@@ -43,12 +43,12 @@ const WholeshellRetails = () => {
               We provide high-quality, eco-friendly cleaning products that are effective and safe for use in various environments.
             </p>
           </div>
-          
+
           {/* Card 2 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
               <Image
-                src="https://st2.depositphotos.com/4152719/8388/i/450/depositphotos_83882532-stock-photo-competitive-pricing-concept-image-with.jpg"
+                src="https://st2.depositphotos.com/4152719/8388/i/450/depositphotos_83882532-stock-photo-competitive-pricing-concept-image-with.jpg" // External image, ensure correct URL
                 alt="Competitive Prices"
                 className="mb-4 rounded-md w-full h-full object-cover"
                 width={400}
@@ -60,12 +60,12 @@ const WholeshellRetails = () => {
               Our wholesale prices are designed to maximize your profit margins, helping you stay competitive in the market.
             </p>
           </div>
-          
+
           {/* Card 3 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
               <Image
-                src="/images/client-receiving.jpg"
+                src="/images/client-receiving.jpg" // Ensure path is correct
                 alt="Flexible Orders"
                 className="mb-4 rounded-md w-full h-full object-cover"
                 width={400}
@@ -77,12 +77,12 @@ const WholeshellRetails = () => {
               We offer flexible order quantities to suit your business needs, whether you're ordering small or large volumes.
             </p>
           </div>
-          
+
           {/* Card 4 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
               <Image
-                src="https://img.freepik.com/free-vector/delivery-man-driving-way_56104-669.jpg?t=st=1743600725~exp=1743604325~hmac=f2289e04a6ae9a8f1070790ad29e43998121f21b7288932e50db8193030512de&w=1800"
+                src="https://img.freepik.com/free-vector/delivery-man-driving-way_56104-669.jpg?t=st=1743600725~exp=1743604325~hmac=f2289e04a6ae9a8f1070790ad29e43998121f21b7288932e50db8193030512de&w=1800" // External image, ensure correct URL
                 alt="Fast Delivery"
                 className="mb-4 rounded-md w-full h-full object-cover"
                 width={400}
@@ -94,12 +94,12 @@ const WholeshellRetails = () => {
               Count on us for fast and reliable delivery, ensuring you always stay stocked and ready to meet customer demands.
             </p>
           </div>
-          
+
           {/* Card 5 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
               <Image
-                src="/images/supports.jpg"
+                src="/images/supports.jpg" // Ensure path is correct
                 alt="Customer Support"
                 className="mb-4 rounded-md w-full h-full object-cover"
                 width={400}
@@ -111,12 +111,12 @@ const WholeshellRetails = () => {
               Our dedicated customer support team is always available to help with any queries or specific requirements you have.
             </p>
           </div>
-          
+
           {/* Card 6 */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="flex flex-col items-center mb-4">
               <Image
-                src="/images/discount.jpg"
+                src="/images/discount.jpg" // Ensure path is correct
                 alt="Exclusive Offers"
                 className="mb-4 rounded-md w-full h-60 object-cover"
                 width={400}
