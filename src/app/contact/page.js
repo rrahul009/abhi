@@ -2,6 +2,7 @@
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({

@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Image from 'next/image'; // Import Image component for optimized images
 import Link from 'next/link';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function WhyChooseUs() {
   const [hoveredCard, setHoveredCard] = useState(null);
