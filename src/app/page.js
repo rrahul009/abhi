@@ -20,9 +20,9 @@ import React from 'react'
        <Slider/>
        <WholeshellRetails/>
        {/* <ProductFeature/> */}
-       <CorporateAndBuilding/>
+       {/* <CorporateAndBuilding/> */}
       
-       <WhyChooseUs/>
+       {/* <WhyChooseUs/> */}
        <ProductDeal/>
        {/* <Tastimonial/> */}
        <Footer/>
