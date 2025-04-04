@@ -12,10 +12,6 @@ const CorporateAndBuilding = () => {
                     Premium Cleaning Solutions for Corporate &amp; Building Facilities
                 </h1>
 
-
-
-
-
                 {/* Main Content */}
                 <p className="text-lg text-gray-800 mb-6 leading-relaxed max-w-3xl mx-auto">
                     At Bhagwati Durga Enterprises, we offer eco-friendly cleaning chemicals tailored for corporate offices, shopping malls, hospitals, and other commercial buildings. Keep your environment clean and hygienic with our sustainable and effective solutions.

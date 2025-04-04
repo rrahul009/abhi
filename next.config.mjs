@@ -3,7 +3,7 @@ const nextConfig = {
 
      images: {
     domains: ['img.freepik.com','5.imimg.com','st2.depositphotos.com','images.pexels.com',
-        'images.pexels.com','images.pexels.com'
+        'images.pexels.com','images.pexels.com','randomuser.me'
     ], // Add the external image domain here
  
   },

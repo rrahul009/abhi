@@ -44,7 +44,13 @@ const CleanlinessFeature = () => {
         {products.map((product, index) => (
           <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
             {/* Product Image */}
-            <Image src={product.image} alt={product.name} className="w-full h-72 object-cover p-5" />
+            <Image 
+  src={product.image} 
+  alt={product.name} 
+  width={500}  // Add width
+  height={300} // Add height
+  className="w-full h-72 object-cover p-5"
+/>
             <div className="p-6">
               {/* Product Title */}
               <h2 className="text-2xl font-bold text-gray-800">{product.name}</h2>

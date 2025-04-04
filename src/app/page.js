@@ -18,13 +18,12 @@ import React from 'react'
 
       <Navbar/>
        <Slider/>
-       {/* <WholeshellRetails/> */}
-       {/* <ProductFeature/> */}
-       {/* <CorporateAndBuilding/> */}
-      
-       {/* <WhyChooseUs/> */}
-       {/* <ProductDeal/> */}
-       {/* <Tastimonial/> */}
+       <WholeshellRetails/>
+       <ProductFeature/>
+       <CorporateAndBuilding/>
+       <WhyChooseUs/>
+       <ProductDeal/>
+       <Tastimonial/>
        <Footer/>
      </div>
    )
