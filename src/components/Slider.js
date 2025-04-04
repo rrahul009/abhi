@@ -69,11 +69,14 @@ const Slider = () => {
 
             {/* Right Side: Image */}
             <div className="w-full md:w-1/2 relative overflow-hidden transform hover:scale-105 transition duration-300 lg:ml-10 hidden md:block">
-              <Image
-                src="https://5.imimg.com/data5/SELLER/Default/2023/10/353184550/GX/ZY/NN/12410061/housekeeping-materials-supplier.jpg"
-                alt="Cleaning Products"
-                className="w-full h-auto object-cover object-center"
-              />
+            <Image
+  src="https://5.imimg.com/data5/SELLER/Default/2023/10/353184550/GX/ZY/NN/12410061/housekeeping-materials-supplier.jpg"
+  alt="Cleaning Products"
+  className="w-full h-auto object-cover object-center"
+  width={800}  // Set the width of the image
+  height={600} // Set the height of the image
+/>
+
             </div>
           </div>
         </div>

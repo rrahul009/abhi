@@ -14,13 +14,16 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between md:justify-center">
         {/* Logo */}
         <Link href="/">
-        <div className="text-3xl font-semibold font-custom text-teal-400 flex-shrink-0">
-          <Image
-            src="https://img.freepik.com/free-vector/gradient-carpet-cleaning-logo-design_23-2150628894.jpg?t=st=1743594241~exp=1743597841~hmac=024e10a005b5e65637aa3df9669f13a3b8795c0171ac45cb18a12b221c549060&w=1380" // Replace with your logo URL
-            alt="Chemical Cleaners Logo"
-            className="w-16 h-16 object-cover" // Optional: Set a fixed width and height for the logo
-          />
-        </div></Link>
+          <div className="text-3xl font-semibold font-custom text-teal-400 flex-shrink-0">
+            <Image
+              src="https://img.freepik.com/free-vector/gradient-carpet-cleaning-logo-design_23-2150628894.jpg?t=st=1743594241~exp=1743597841~hmac=024e10a005b5e65637aa3df9669f13a3b8795c0171ac45cb18a12b221c549060&w=1380"
+              alt="Chemical Cleaners Logo"
+              width={100}  // Set the width of the logo
+              height={100} // Set the height of the logo
+              className="w-16 h-16 object-cover"  // Optional: For custom sizing
+            />
+
+          </div></Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-start justify-center flex-grow">
@@ -39,7 +42,7 @@ const Navbar = () => {
           <Link href="/contact" className="text-white hover:text-teal-300 transition-all duration-300 font-medium">
             Contact
           </Link>
-         
+
         </div>
 
         {/* Email and Phone */}
