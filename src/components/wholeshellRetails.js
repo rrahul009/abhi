@@ -9,14 +9,16 @@ const WholeshellRetails = () => {
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Heading */}
         <h1 className="text-4xl md:text-4xl font-bold text-black text-center leading-tight mb-6">
-          Wholesale & Retail Chemicals at Best Prices
-        </h1>
+  Wholesale &amp; Retail Chemicals at Best Prices
+</h1>
+
+
 
         {/* Main Content */}
         <div className="text-lg mx-w-4xl text-gray-950 mb-6 leading-relaxed text-center md:text-center">
-          <p>
-            <span style={{ color: 'green' }} className="font-bold text-xl">Bhagwati Durga Enterprises</span> offers top-quality cleaning chemicals at the best prices for wholesalers and retailers.
-          </p>
+        <span style={{ color: 'green' }} className="font-bold text-xl">Bhagwati Durga Enterprises</span> offers top-quality cleaning chemicals at the best prices for wholesalers and retailers.
+
+
           <p>
             Whether you're stocking your store or supplying your business, our eco-friendly solutions have you covered.
           </p>

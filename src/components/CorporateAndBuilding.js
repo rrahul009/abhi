@@ -9,8 +9,10 @@ const CorporateAndBuilding = () => {
       <div className="max-w-7xl mx-auto text-center space-y-8">
         {/* Heading */}
         <h1 className="text-4xl md:text-5xl font-bold text-black leading-tight mb-6">
-          Premium Cleaning Solutions for Corporate & Building Facilities
-        </h1>
+  Premium Cleaning Solutions for Corporate &amp; Building Facilities
+</h1>
+
+
 
         {/* Main Content */}
         <p className="text-lg text-gray-800 mb-6 leading-relaxed max-w-3xl mx-auto">
